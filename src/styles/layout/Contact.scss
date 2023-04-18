@@ -1,4 +1,7 @@
-.home {
+.conctact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100%;
   background-image: linear-gradient(
     to bottom,
@@ -38,47 +41,31 @@
   }
 
   &__article {
-    font-size: 38px;
-    position: absolute;
-    right: 70px;
-    top: 325px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     @media all and (min-width: 768px) {
       position: absolute;
-      font-size: 60px;
-      top: 570px;
-      right: 170px;
+      top: 202px;
+      right: 65px;
     }
     @media all and (min-width: 1020px) {
       position: absolute;
-      font-size: 80px;
-      top: 200px;
-      right: 230px;
-    }
-    &__hello {
-      font-size: 20px;
-      text-align: end;
-      @media all and (min-width: 1020px) {
-        text-align: start;
-      }
-    }
-    &__name {
-      text-align: end;
-      font-size: 40px;
-      // color: #ca9986;
-      color: #8d7f7b;
-      @media all and (min-width: 1020px) {
-        font-size: 90px;
-        text-align: start;
-      }
-    }
-
-    &__job {
-      text-align: end;
-      font-size: 30px;
-      @media all and (min-width: 1020px) {
-        font-size: 50px;
-        text-align: start;
-      }
+      top: 600px;
+      right: 338px;
     }
   }
+  &__link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+  &__link:hover {
+    color: rgb(121, 121, 121);
+  }
+}
+
+.icon {
+  margin-right: 10px;
 }

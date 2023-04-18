@@ -12,6 +12,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Home from "./main/Home";
 import Projects from "./main/Projects";
+import Conctact from "./main/Conctact";
 
 function App() {
   /* VARIABLES Y DATOS */
@@ -32,7 +33,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/contact' element={<p>hola contacto</p>} />
+          <Route path='/contact' element={<Conctact />} />
         </Routes>
       </main>
       <Footer />
