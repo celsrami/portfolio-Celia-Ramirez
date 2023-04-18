@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "./static/css/main.12b7e13b.css",
+    "main.js": "./static/js/main.9c771da2.js",
+    "static/media/imgporfolio.png": "./static/media/imgporfolio.53a5c9aa8fa3df5094b3.png",
+    "static/media/harry.jpg": "./static/media/harry.80f4b275d016153f955a.jpg",
+    "static/media/cocktails.jpg": "./static/media/cocktails.6471b3c652911412b92c.jpg",
+    "static/media/landing.jpg": "./static/media/landing.767aa3cc0bc641ab3635.jpg",
+    "static/media/juegonumber.jpg": "./static/media/juegonumber.b9b41904686c3e508ee0.jpg",
+    "index.html": "./index.html",
+    "main.12b7e13b.css.map": "./static/css/main.12b7e13b.css.map",
+    "main.9c771da2.js.map": "./static/js/main.9c771da2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12b7e13b.css",
+    "static/js/main.9c771da2.js"
+  ]
+}
