@@ -1,0 +1,40 @@
+.list {
+  // background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none;
+
+  &__li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__title {
+    color: black;
+    font-size: 30px;
+    z-index: 2;
+    transform: translateY(-10px);
+    font-weight: 700;
+    cursor: pointer;
+  }
+  &__divImg {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 1px 10px 0 white, 0 1px 20px 0 rgba(22, 3, 3, 0.877);
+  }
+  &__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: white;
+  }
+  &__div {
+    width: 300px;
+    background-color: bisque;
+  }
+}

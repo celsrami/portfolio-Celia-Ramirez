@@ -1,0 +1,49 @@
+@import "../core/Variables";
+
+.header {
+  &__title {
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 10px;
+    @media all and (min-width: 768px) {
+      font-size: 14px;
+    }
+  }
+
+  &__nav {
+    background-color: black;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__ul {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  &__link {
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-right: 30px;
+    opacity: 0.6;
+    padding-bottom: 5px;
+    @media all and (min-width: 768px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.active {
+  border-bottom: 2px rgb(241, 241, 240) solid;
+  opacity: 1;
+}
