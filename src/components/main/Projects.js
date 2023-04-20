@@ -4,9 +4,13 @@ import cocktail from "../../images/cocktails.jpg";
 import harry from "../../images/harry.jpg";
 import play from "../../images/juegonumber.jpg";
 import lading from "../../images/landing.jpg";
+import hangmanGame from "../../images/Juego ahorcado.jpg";
+import cardJob from "../../images/card.jpg";
+import cardProject from "../../images/projectcard.jpg";
 const Projects = () => {
   return (
     <section className='list'>
+      <h3 className='list__project'>personal projects</h3>
       <ul className='list__ul'>
         <ListProjects
           title='Search Cocktails'
@@ -39,6 +43,33 @@ const Projects = () => {
           tecno='HTML, SASS'
           url='https://celsrami.github.io/Lading-web-celsrami/'
           git='https://github.com/celsrami/Lading-web-celsrami'
+        />
+      </ul>
+      <h3 className='list__project'>Group projects</h3>
+      <ul className='list__ul'>
+        <ListProjects
+          title='Hangman game'
+          img={hangmanGame}
+          desc='El juego consiste en adivinar una palabra oculta antes de que se dibuje un muñeco ahorcado por cada intento fallido. Además, cuenta con la opción para dos jugadores, donde uno de ellos puede elegir la palabra a adivinar.'
+          tecno='HTML, SASS, JavaScript, React'
+          url='https://celsrami.github.io/hangman-game/'
+          git='https://github.com/celsrami/hangman-game'
+        />
+        <ListProjects
+          title='Create a virtual card'
+          img={cardJob}
+          desc='La app permite crear tarjetas virtuales sobre ti mismo, donde puedes rellenar el formulario, elegir y visualizar el diseño deseado. Al finalizar, se genera una URL única para publicar o compartir en diferentes plataformas.'
+          tecno='HTML, SASS, JavaScript'
+          url='https://celsrami.github.io/project-create-a-virtual-card/create-card.html'
+          git='https://github.com/celsrami/project-create-a-virtual-card'
+        />
+        <ListProjects
+          title='Create a project card'
+          img={cardProject}
+          desc='La web está diseñada para crear y mostrar proyectos personales. En la sección "crear tarjeta" se pueden introducir datos personales y profesionales, subir fotos y obtener una vista maquetada con toda la información del proyecto.'
+          tecno='HTML, SASS, JavaScript, React'
+          url='https://celsrami.github.io/create-project-cards/#/create-card'
+          git='https://github.com/celsrami/create-project-cards'
         />
       </ul>
     </section>
