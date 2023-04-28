@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.440765a3.css",
-    "main.js": "./static/js/main.8f3b02d3.js",
+    "main.css": "./static/css/main.690b9a08.css",
+    "main.js": "./static/js/main.cc8ec1c3.js",
     "static/media/imgporfolio.png": "./static/media/imgporfolio.53a5c9aa8fa3df5094b3.png",
     "static/media/projectcard.jpg": "./static/media/projectcard.6fb18de97ef2a52c7599.jpg",
+    "static/media/calculadora.jpg": "./static/media/calculadora.260508744b5a5663fbef.jpg",
     "static/media/Juego ahorcado.jpg": "./static/media/Juego ahorcado.5c65ec1cdbb5b24696fb.jpg",
     "static/media/harry.jpg": "./static/media/harry.80f4b275d016153f955a.jpg",
     "static/media/card.jpg": "./static/media/card.b44327629bc19e3b76f5.jpg",
@@ -11,11 +12,11 @@
     "static/media/landing.jpg": "./static/media/landing.767aa3cc0bc641ab3635.jpg",
     "static/media/juegonumber.jpg": "./static/media/juegonumber.b9b41904686c3e508ee0.jpg",
     "index.html": "./index.html",
-    "main.440765a3.css.map": "./static/css/main.440765a3.css.map",
-    "main.8f3b02d3.js.map": "./static/js/main.8f3b02d3.js.map"
+    "main.690b9a08.css.map": "./static/css/main.690b9a08.css.map",
+    "main.cc8ec1c3.js.map": "./static/js/main.cc8ec1c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.440765a3.css",
-    "static/js/main.8f3b02d3.js"
+    "static/css/main.690b9a08.css",
+    "static/js/main.cc8ec1c3.js"
   ]
 }
