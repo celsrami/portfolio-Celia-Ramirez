@@ -7,10 +7,12 @@ import lading from "../../images/landing.jpg";
 import hangmanGame from "../../images/Juego ahorcado.jpg";
 import cardJob from "../../images/card.jpg";
 import cardProject from "../../images/projectcard.jpg";
+import calculator from "../../images/calculadora.jpg";
 const Projects = () => {
   return (
     <section className='list'>
       <h3 className='list__project'>personal projects</h3>
+
       <ul className='list__ul'>
         <ListProjects
           title='Search Cocktails'
@@ -35,6 +37,15 @@ const Projects = () => {
           tecno='HTML, SASS, JavaScript, React'
           url='https://celsrami.github.io/guess-a-number-celsrami/'
           git='https://github.com/celsrami/guess-a-number-celsrami'
+        />{" "}
+        <ListProjects
+          title='Calculator'
+          img={calculator}
+          desc='Esta calculadora es una herramienta de cálculo práctica y funcional, que 
+          realiza operaciones matemáticas básicas como suma, resta, multiplicación y división. Además muestra la operación que se va realizando en la pantalla.'
+          tecno='HTML, SASS, javaScript'
+          url='https://celsrami.github.io/calculator/'
+          git='https://github.com/celsrami/calculator'
         />
         <ListProjects
           title='Sports landing web'
@@ -68,7 +79,7 @@ const Projects = () => {
           img={cardProject}
           desc='La web está diseñada para crear y mostrar proyectos personales. En la sección "crear tarjeta" se pueden introducir datos personales y profesionales, subir fotos y obtener una vista maquetada con toda la información del proyecto.'
           tecno='HTML, SASS, JavaScript, React'
-          url='https://celsrami.github.io/create-project-cards/#/create-card'
+          url='https://proyectos-molones-code-queens.onrender.com/'
           git='https://github.com/celsrami/create-project-cards'
         />
       </ul>
