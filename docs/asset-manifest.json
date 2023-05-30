@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.3da52bec.css",
-    "main.js": "./static/js/main.f4e521ee.js",
+    "main.js": "./static/js/main.da6eea87.js",
     "static/media/imgporfolio.png": "./static/media/imgporfolio.2fdfbde869c14f1c8925.png",
     "static/media/projectcard.jpg": "./static/media/projectcard.6fb18de97ef2a52c7599.jpg",
     "static/media/calculadora.jpg": "./static/media/calculadora.260508744b5a5663fbef.jpg",
@@ -11,13 +11,14 @@
     "static/media/card.jpg": "./static/media/card.b44327629bc19e3b76f5.jpg",
     "static/media/cocktails.jpg": "./static/media/cocktails.6471b3c652911412b92c.jpg",
     "static/media/landing.jpg": "./static/media/landing.767aa3cc0bc641ab3635.jpg",
+    "static/media/blenderimg.JPG": "./static/media/blenderimg.2153ea808ddff340194a.JPG",
     "static/media/juegonumber.jpg": "./static/media/juegonumber.b9b41904686c3e508ee0.jpg",
     "index.html": "./index.html",
     "main.3da52bec.css.map": "./static/css/main.3da52bec.css.map",
-    "main.f4e521ee.js.map": "./static/js/main.f4e521ee.js.map"
+    "main.da6eea87.js.map": "./static/js/main.da6eea87.js.map"
   },
   "entrypoints": [
     "static/css/main.3da52bec.css",
-    "static/js/main.f4e521ee.js"
+    "static/js/main.da6eea87.js"
   ]
 }
