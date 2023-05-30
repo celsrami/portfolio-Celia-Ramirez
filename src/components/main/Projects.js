@@ -9,6 +9,7 @@ import cardJob from "../../images/card.jpg";
 import cardProject from "../../images/projectcard.jpg";
 import calculator from "../../images/calculadora.jpg";
 import ladingBootstrap from "../../images/ladingbootstrap.JPG";
+import blender from "../../images/blenderimg.JPG";
 const Projects = () => {
   return (
     <section className='list'>
@@ -39,13 +40,20 @@ const Projects = () => {
           git='https://github.com/celsrami/landing-page-bootstrap'
         />
         <ListProjects
+          title='Blender and timer'
+          img={blender}
+          tecno='HTML, CSS, JavaScript, Sounds'
+          url='https://celsrami.github.io/blender/'
+          git='https://github.com/celsrami/blender'
+        />
+        <ListProjects
           title='Guess a random number'
           img={play}
           // desc='El juego consiste en adivinar un número aleatorio entre 1 y 100, recibiendo pistas sobre si los intentos son demasiado altos o bajos, y contabilizando el número de intentos. Se debe recargar la página para jugar de nuevo.'
           tecno='HTML, SASS, JavaScript, React'
           url='https://celsrami.github.io/guess-a-number-celsrami/'
           git='https://github.com/celsrami/guess-a-number-celsrami'
-        />{" "}
+        />
         <ListProjects
           title='Calculator'
           img={calculator}
