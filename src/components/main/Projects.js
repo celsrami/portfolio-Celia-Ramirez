@@ -10,6 +10,7 @@ import cardProject from "../../images/projectcard.jpg";
 import calculator from "../../images/calculadora.jpg";
 import ladingBootstrap from "../../images/ladingbootstrap.JPG";
 import blender from "../../images/blenderimg.JPG";
+import burguer from "../../images/burguer.JPG";
 const Projects = () => {
   return (
     <section className='list'>
@@ -38,6 +39,14 @@ const Projects = () => {
           tecno='HTML, CSS, Bootstrap'
           url='https://celsrami.github.io/landing-page-bootstrap/'
           git='https://github.com/celsrami/landing-page-bootstrap'
+        />
+        <ListProjects
+          title='Burgerlicious'
+          img={burguer}
+          // desc='La app realiza una petición a un API para obtener una lista de personajes de Harry Potter filtrados por la casa a la que pertenecen. También permite buscar por nombre y muestra la información completa al hacer click sobre un personaje.'
+          tecno='HTML, SASS, CSS, JavaScript'
+          url='https://celsrami.github.io/Burgerlicious/'
+          git='https://github.com/celsrami/Burgerlicious'
         />
         <ListProjects
           title='Blender and timer'
