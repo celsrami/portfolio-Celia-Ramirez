@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Portfolio CR</title>
+  </head>
+
+  <body>
+    <!--  HEADER -------------------->
+    <header class="header js-header">
+      <div class="header__btn">
+        <div class="header__btn-line line-one"></div>
+        <div class="header__btn-line line-two"></div>
+        <div class="header__btn-line line-three"></div>
+      </div>
+
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li class="header__li">
+            <a href="#hero" class="header__link">Home</a>
+          </li>
+          <li class="header__li">
+            <a href="#project" class="header__link">Proyectos</a>
+          </li>
+          <li class="header__li">
+            <a href="#skills" class="header__link">Skils</a>
+          </li>
+          <li class="header__li">
+            <a href="#contact" class="header__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <nav class="main__nav">
+        <button
+          data-target="#hero"
+          class="main__nav__button js-button main__nav__active"
+        ></button>
+        <button
+          data-target="#project"
+          class="main__nav__button js-button"
+        ></button>
+        <button
+          data-target="#skills"
+          class="main__nav__button js-button"
+        ></button>
+        <button
+          data-target="#contact"
+          class="main__nav__button js-button"
+        ></button>
+
+      </nav>
+
+      <!-- ******** HERO ****************** -->
+
+      <section id="hero" class="js-section sentions sentions__bg1">
+        <div class="sentions__div">
+          <section class="hero">
+            <div class="hero__div">
+              <img src="./img/imgporfolio.png" class="hero__img" alt="">
+              <div>
+              <h1 class="hero__title">Hello,</h1>
+              <h2 class="hero__name">my name is Celia Ramírez</h2>
+              <h2 class="hero__subtitle">I'm a web developer</h2>
+            </div>
+            </div>
+            <p class="hero__text">
+              Soy una persona proactiva, creativa y apasionada por el diseño web
+              y gráfico. Disfruto combinando estética y funcionalidad para crear
+              experiencias visuales impactantes. Siempre estoy explorando nuevas
+              tendencias para llevar mis proyectos al siguiente nivel.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <!-- ******** PROYECTOS ****************** -->
+
+<section id="project" class="js-section sentions">
+   <div class="sentions__div">
+    <article class="sentions__number__article">
+    <h4 class="sentions__number__article__number">01</h4>
+    <div class="sentions__number__article__div">
+     <div class="sentions__number__article__ray"></div>
+     <h4 class="sentions__number__article__title">projects</h4>
+     </div>
+    </article>
+
+  <section class="project">
+    <section class="gallery">
+    <div class="gallery__prev"><i class="fa-solid fa-angle-left"></i></div>
+    <div class="gallery__next"><i class="fa-solid fa-angle-right"></i></div>
+    <ul class="gallery__ul">
+      <li class="gallery__item">
+        <img src="./img/blenderimg.JPG " alt="prueba" class="gallery__img" />
+    
+         <div class="gallery__open">
+          <!-- <h3 class="gallery__open__title">Blender</h3> -->
+          <p class="gallery__open__tec" >HTML, CSS, JavaScript, Sounds</p>
+            <div class="gallery__open__div">
+            <a href="https://github.com/celsrami/blender" class="gallery__open__icon"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="https://celsrami.github.io/blender/" class="gallery__open__icon"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+      </li>
+        <li class="gallery__item ">
+        <img src="./img/burguer.JPG" alt="prueba" class="gallery__img" />
+  
+         <div class="gallery__open">
+          <!-- <h3 class="gallery__open__title">Burger</h3> -->
+          <p class="gallery__open__tec" >HTML, SASS, CSS, JavaScript</p>
+            <div class="gallery__open__div">
+            <a href="https://github.com/celsrami/Burgerlicious" class="gallery__open__icon"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="https://celsrami.github.io/Burgerlicious/" class="gallery__open__icon"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+      </li> 
+       <li class="gallery__item">
+        <img src="./img/cocktails.jpg" alt="prueba" class="gallery__img" />
+ 
+         <div class="gallery__open">
+          <!-- <h3 class="gallery__open__title">Cocktails</h3> -->
+          <p class="gallery__open__tec">HTML, SASS, JavaScript</p>
+            <div class="gallery__open__div">
+            <a href="https://github.com/celsrami/cocktail-search-celsram" class="gallery__open__icon"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="https://celsrami.github.io/cocktail-search-celsrami/" class="gallery__open__icon"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+      </li> 
+       <li class="gallery__item ">
+        <img src="./img/harry.jpg" alt="prueba" class="gallery__img" />
+         <div class="gallery__open">
+          <!-- <h3 class="gallery__open__title">Harry Potter </h3> -->
+          <p class="gallery__open__tec" >HTML, SASS, React</p>
+            <div class="gallery__open__div">
+            <a href="https://github.com/celsrami/harry-potter-character-celsrami" class="gallery__open__icon"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="https://celsrami.github.io/harry-potter-character-celsrami/" class="gallery__open__icon"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+      </li>
+          <li class="gallery__item">
+        <img src="./img/calculadora.jpg" alt="prueba" class="gallery__img" />
+         <div class="gallery__open">
+          <!-- <h3 class="gallery__open__title">Calculator</h3> -->
+          <p class="gallery__open__tec">HTML, SASS, javaScript</p>
+            <div class="gallery__open__div">
+            <a href="https://github.com/celsrami/calculator" class="gallery__open__icon"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="https://celsrami.github.io/calculator/" class="gallery__open__icon"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+      </li>
+
+        <li class="gallery__item">
+        <img src="./img/Juego ahorcado.jpg" alt="ahorcado" class="gallery__img" />
+         <div class="gallery__open">
+          <!-- <h3 class="gallery__open__title">Number</h3> -->
+          <p class="gallery__open__tec">HTML, SASS, javaScript</p>
+            <div class="gallery__open__div">
+            <a href="https://github.com/celsrami/hangman-game" class="gallery__open__icon"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="https://celsrami.github.io/hangman-game/" class="gallery__open__icon"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+      </li>
+    
+</ul>
+</section>
+</section>
+</div>
+</section>
+
+      <!-- ******** SKILL ****************** -->
+
+<section id="skills" class="js-section sentions">
+        <div class="sentions__div">
+             <article class="sentions__number__article">
+    <h4 class="sentions__number__article__number">02</h4>
+    <div class="sentions__number__article__div">
+     <div class="sentions__number__article__ray"></div>
+     <h4 class="sentions__number__article__title">Skills</h4>
+     </div>
+    </article>
+
+        <section class="skill">
+          <article class="skill__article">
+            <h2 class="skill__article__title">Developement</h2>
+            <p class="skill__article__p">html, scss, javaScript, React</p>
+                 <h2 class="skill__article__title">Design</h2>
+            <p class="skill__article__p">Photoshop, Illustrator, Indesign, Figma, Adobe xd</p>
+          </article>
+          <img class="skill__img" src="./img/print-02.png" alt="">
+        </section>
+       </div>
+      </section>
+
+      <!-- ******** CONTACT ****************** -->
+
+<section id="contact" class="js-section sentions">
+        <div class="sentions__div">
+          <article class="sentions__number__article">
+            <h4 class="sentions__number__article__number">03</h4>
+            <div class="sentions__number__article__div">
+              <div class="sentions__number__article__ray"></div>
+              <h4 class="sentions__number__article__title">Contact</h4>
+            </div>
+          </article>
+             <section class="contact">
+          <ul class="contact__ul">
+            <li class="contact__li">
+              <div class="contact__li__div">  
+                <i class="fa-brands fa-github-alt contact__li__icon"></i>
+                <h3 class="contact__li__title">Git Hub</h3>
+              </div>
+             <a href="https://github.com/celsrami" class="contact__li__p">Celsrami</a>
+            </li>
+             <li class="contact__li">
+              <div class="contact__li__div">  
+                <i class="fa-brands fa-linkedin-in contact__li__icon"></i>
+                <h3 class="contact__li__title">Linkeding</h3>
+              </div>
+             <a href="https://www.linkedin.com/in/celia-ramirez-jimenez/" class="contact__li__p">Celia Ramírez</a>
+            </li>
+            <li class="contact__li">
+              <div class="contact__li__div">  
+                <i class="fa-solid fa-envelope contact__li__icon"></i>
+                <h3 class="contact__li__title">Email</h3>
+              </div>
+            <a href="mailto:celsrami22@gmail.com?subject=Hola%20Celsrami&body=Me%20gustaría%20contactarte%20porque..." class="contact__li__p">celsrami22@gmail.com</a>
+            </li>
+
+          </ul>
+          <div class="contact__ray">
+
+          </div>
+          <article>
+            <a href="./assets/cv-celiaramirez.pdf" class="contact__pdf">Descargar cv</a>
+          </article>
+          <!-- <img class="contact__img" src="./img/print-02.png" alt=""> -->
+        </section>
+        </div>
+  </section>
+
+
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
